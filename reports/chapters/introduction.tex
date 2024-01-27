@@ -2,28 +2,11 @@
 \label{ch:into} % This how you label a chapter and the key (e.g., ch:into) will be used to refer this chapter ``Introduction'' later in the report. 
 % the key ``ch:into'' can be used with command \ref{ch:intor} to refere this Chapter.
 
-\textbf{Guidance on introduction chapter writing:} Introductions are written in the following parts:
-\begin{itemize}
-    \item A brief  description of the investigated problem.
-    \item A summary of the scope and context of the project, i.e., what is the background of the topic/problem/application/system/algorithm/experiment/research question/hypothesis/etc. under investigation/implementation/development [whichever is applicable to your project].
-    \item The aims and objectives of the project.
-    \item A description of the problem and the methodological approach adopted to solve the problem.
-    \item A summary of the most significant outcomes and their interpretations.
-    \item Organization of the report. 
-\end{itemize}
+\textbf In the growth of artificial intelligence and human-computer interaction, where computers are taught how to behave differently based on human input, and in this particular research the recognition of human emotion is performed with the help of different deep learning algorithms. Understanding human emotion has witnessed a surge area of interest and has a wide range of applications in different fields such as Virtual Reality, Facial Recognition devices, and health care where using the ability of computer knowledge and algorithms emotion is detected, and based on it the computer or device reacts.
 
+The dataset \cite{Kaggle} chosen to understand and explore the deep learning model is collected from open source and can be used for research and learning purposes in which there are images of 7 different human emotions which are ‘sad’, ‘happy’, ‘angry’, ‘surprise’, ‘disgust’, ‘fear’ and ‘neutral’ where each image are present in grayscale format and each emotion has around 3000 to 4000 image which is sufficient to understand the pattern for deep learning model but to increase the number of training and testing image different image related processing will be applied to remove extra noise and add some sampling image using data augmentation \cite{Takimoglu}, which will increase the final accuracy of the model. 
 
-Consult \textbf{your supervisor} to check the content of the introduction chapter. In this template, we only offer basic sections of an introduction chapter. It may  not be complete and comprehensive. Writing a report is a subjective matter, and a report's style and structure depend on the ``type of project'' as well as an individual's preference. This template suits the following project paradigms:
-\begin{enumerate}
-    \item software engineering and software/web application development;
-    \item algorithm implementation, analysis and/or application;  
-    \item science lab (experiment); and
-    \item pure theoretical development (not mention extensively).
-\end{enumerate}
-
-Use only a single \textbf{font} for the body text. We recommend using a clean and electronic document friendly font like \textbf{Arial} or \textbf{Calibri} for MS-word (If you create a report in MS word). If you use this template, DO NOT ALTER the template's default font ``amsfont default computer modern''. The default \LaTeX~font ``computer modern'' is also acceptable. 
-
-The recommended body text \textbf{font size} is minimum \textbf{11pt} and minimum one-half line spacing. The recommended figure/table caption font size is minimum 10pt. The footnote\footnote{Example footnote: footnotes are useful for adding external sources such as links as well as extra information on a topic or word or sentence. Use command \textbackslash footnote\{...\} next to a word to generate a footnote in \LaTeX.} font size is minimum 8pt. DO NOT ALTER the font setting of this template.   
+The deep learning model will be fine-tuned and optimized using different Optimizer functions such as Adam \cite{Adam} and RMSprop \cite{Deepchecks} and will be based upon a classification algorithm as there are 7 different classes present for each of the images and the probability of each class will be predicted and the class which has the highest probability will be chosen as the final output for the given image.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Background}
